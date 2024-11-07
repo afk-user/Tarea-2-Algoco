@@ -1,2 +1,4 @@
 .vscode
-bruteforce
+bruteforce*
+!bruteforce*.cpp
+ejemplos.txt
