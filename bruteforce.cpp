@@ -29,8 +29,9 @@ int main() {
     int n,m;
     string A,B;
 
-    cout << "Ingrese palabras:" <<endl;
-    cin >> A >> B;
+    cout << "Ingrese palabras (en lineas separadas):" <<endl;
+    getline(cin,A);
+    getline(cin,B);
 
     n = A.length();
     m = B.length();
