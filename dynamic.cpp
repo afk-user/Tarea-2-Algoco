@@ -18,8 +18,8 @@ int transform(string A, string B, int n, int m) {
 
     for (i=1;i<=n;i++){
         for (j=1;j<=m;j++){
-            ins = costo_ins(B[j])+t[i][j-1];
-            del = costo_del(A[i])+t[i-1][j];
+            ins = costo_ins(B[j-1])+t[i][j-1];
+            del = costo_del(A[i-1])+t[i-1][j];
             sub = costo_sub(A[i-1],B[j-1])+t[i-1][j-1];
             t[i][j] = min({ins,del,sub});
 
