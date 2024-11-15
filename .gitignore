@@ -1,4 +1,6 @@
 .vscode
 bruteforce*
-!bruteforce*.cpp
+!bruteforce.cpp
+dynamic*
+!dynamic.cpp
 ejemplos.txt
